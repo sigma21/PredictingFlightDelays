@@ -21,7 +21,7 @@ $ docker run -p 80:80 fastapi-ml
 
 - Option 1: Using the web browser. 
 
-  Visit `http://0.0.0.0:8000/docs`. You will see a /predict endpoint: 
+  Visit `http://0.0.0.0:80/docs`. You will see a /predict endpoint: 
 
 
 You can click on "Try it now" which will let you modify the input request. Click on "Execute" to see the model prediction response from the web server.
