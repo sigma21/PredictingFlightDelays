@@ -153,3 +153,4 @@ async def scoring_endpointv2(deptdatetime: str, origin: Origin, destination: Des
         'latency': f'{latency:.3f} ms'})
 
     return {"Probability of arrival on time": yhat}
+
